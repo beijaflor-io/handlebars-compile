@@ -1,0 +1,23 @@
+{
+  "name": "handlebars-compile",
+  "version": "1.0.0",
+  "description": "Outputs HTML from a handlebars template and some JSON data",
+  "main": "handlebars-compile.js",
+  "bin": "handlebars-compile.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/beijaflor-io/handlebars-compile.git"
+  },
+  "author": "Pedro Tacla Yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beijaflor-io/handlebars-compile/issues"
+  },
+  "homepage": "https://github.com/beijaflor-io/handlebars-compile#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "handlebars": "^4.0.5"
+  }
+}
