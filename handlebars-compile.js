@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var Handlebars = require('handlebars');
 var fs = require('fs');
 var program = require('commander');
@@ -9,7 +10,6 @@ program.usage('-d <data-file> -t <template-file> [-o <output-file>]')
   .parse(process.argv);
 
 if (!program.data || !program.template) {
-  console.log(program.template)
   program.help();
 }
 
