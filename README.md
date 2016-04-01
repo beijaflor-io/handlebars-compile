@@ -1,5 +1,6 @@
 # handlebars-compile
-Outputs HTML from a handlebars template and some JSON data
+Outputs HTML from a handlebars template and some JSON data. Just a tiny script
+to use handlebars in UNIX fashion.
 
 ## Usage
 
